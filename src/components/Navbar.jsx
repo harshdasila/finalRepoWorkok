@@ -10,13 +10,13 @@ const Navbar = () => {
         <img className='ml-5 text-xl' src={LogoImg} alt='logo'></img>
       </div>
       <div className='flex p-4 text-lg font-semibold mr-[4rem]'>
-        <button className='mx-3 flex justify-center items-center hover:text-blue-500'>
+        <button className='navbar-text mx-3 flex justify-center items-center hover:text-blue-500'>
         <Link to="/">Home</Link>
           </button>
-        <button className='mx-3 flex justify-center items-center hover:text-blue-500'>
+        <button className='navbar-text mx-3 flex justify-center items-center hover:text-blue-500'>
         <Link to="/about">About Us</Link>
         </button>
-        <button className='mx-3 flex justify-center items-center hover:text-blue-500'> 
+        <button className='navbar-text mx-3 flex justify-center items-center hover:text-blue-500'> 
           Contact US
         </button>
       </div>

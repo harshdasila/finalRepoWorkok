@@ -1,3 +1,69 @@
 body{
     background-color: lightgray;
 }
+
+@media (max-width: 1000px) { 
+    body{
+        width: 100%;
+    }
+    .navbarInfo {
+        height: auto;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .navbarItem {
+        color: #fff;
+        margin-bottom: 1rem; /* Adjusted for better spacing */
+      }
+      
+      .navbarText, .navbarItem span {
+        font-size: 0.9rem; /* Adjust font size for better readability on all devices */
+        margin-left: 0.5rem;
+      }
+      .navbarSpan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .DiscountsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .category-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .navbar-text{
+        font-size: large;
+        margin-right: 5px;
+      }
+      .contact-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+      }
+      .contact-us-item{
+        margin-right: 2rem;
+        width: auto;
+      }
+      .choose-us-item{
+        margin-right: 1rem;
+        width: auto;
+      }
+      .discount-card{
+        display: none;
+      }
+      
+      /* Responsive design adjustments */
+      
+ }

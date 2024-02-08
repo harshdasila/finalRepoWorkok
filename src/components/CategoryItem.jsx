@@ -2,7 +2,7 @@ import React from 'react'
 
 const CategoryItem = ({name,imgLink}) => {
   return (
-    <div className='p-4'>
+    <div className='p-4 category-item'>
       <div>
         <img content='fit' src={imgLink}></img>
       </div>

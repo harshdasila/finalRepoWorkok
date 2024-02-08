@@ -7,8 +7,8 @@ import React from 'react'
 const Footer = () => {
   return (
     
-    <div className='flex justify-center items-center bg-black pt-[4rem] pb-6'>
-      <div className='w-2/6 pl-5 ml-5'>
+    <div className='contact-us flex justify-center items-center bg-black pt-[4rem] pb-6'>
+      <div className='contact-us-item lg:w-2/6 pl-5 ml-5'>
                 <h1 className='text-white flex justify-center items-center text-[23px] font-weight-[600] border-b-2 border-blue w-4/5'>About Copy & Supplies</h1>
                 <div className='text-white font-[400] text-[18px] mt-[22.75px] pb-3 leading-8'>
                 We at Copy & Supplies work towards a unique goal of being the one stop destination for all kinds of printing needs for Home & Offices.
@@ -25,7 +25,7 @@ const Footer = () => {
                     </a>
                 </div>
         </div>
-        <div className='w-2/6 pl-5 ml-5'>
+        <div className='contact-us-item lg:w-2/6 pl-5 ml-5'>
                 <h1 className='text-white flex justify-center items-center text-[23px] font-weight-[600] border-b-2 border-blue '>Contact Us</h1>
                 <div className='text-white font-[400] text-[18px] mt-5 pb-3 leading-[30px]'>
                     <div className='flex  items-center mb-3'>
@@ -54,9 +54,9 @@ const Footer = () => {
                 </div>
         </div>
 
-        <div className='w-2/6 pl-5 ml-5'>
-    <h1 className='text-white flex justify-center items-center text-[23px] font-weight-[600] border-b-2 border-blue'>Information</h1>
-    <div className='text-white font-[400] text-[18px] mt-5 pb-3 leading-8'>
+        <div className='lg:w-2/6 pl-5 ml-5'>
+    <h1 className=' text-white flex justify-center items-center text-[23px] font-weight-[600] border-b-2 border-blue'>Information</h1>
+    <div className='contact-us-item text-white font-[400] text-[18px] mt-5 pb-3 leading-8'>
         <ul className='flex flex-col items-center'> {/* Apply flexbox styles here */}
             <li>About Us</li>
             <li>Disclaimer</li>

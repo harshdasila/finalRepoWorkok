@@ -7,7 +7,7 @@ const FeaturedProducts = () => {
       <div className='flex justify-center items-center text-2xl font-bold'>
         FEATURED PRODUCTS
       </div>
-      <div className='flex flex-wrap p-5'>
+      <div className='flex flex-wrap p-5 justify-center items-center'>
         <Product imgLink="https://copynsupplies.com/wp-content/uploads/2019/03/Brother-MFCL2750DW-Monochrome-All-in-One-Wireless-Laser-Printer-Duplex-Copy-Scan-Amazon-Dash-Replenishment-Enabled.png" Name="Brother MFC-J5830DW" Price={243}/>
         <Product imgLink="https://copynsupplies.com/wp-content/uploads/2019/03/Brother-MFC-J5830DW-All-in-One-Color-Inkjet-Printer-Wireless-Connectivity-Automatic-Duplex-Printing-Amazon-Dash-Replenishment-Enabled.png" Name="Brother MFCL2750DW" Price={234}/>
         <Product imgLink="https://copynsupplies.com/wp-content/uploads/2019/03/Brother-Monochrome-Laser-Printer-HL-L6200DW-Wireless-Networking-Mobile-Printing-Duplex-Printing-Large-Paper-Capacity-Amazon-Dash-Replenishment-Enabled.png" Name="Brother Monochrome Laser Printer" Price={287.5}/>
