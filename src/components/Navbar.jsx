@@ -7,8 +7,7 @@ const Navbar = () => {
   return (
     <div className='flex h-[5rem] justify-between bg-white'>
       <div className='flex p-2'>
-
-        <img src={LogoImg} alt='logo'></img>
+        <img className='ml-5 text-xl' src={LogoImg} alt='logo'></img>
       </div>
       <div className='flex p-4 text-lg font-semibold mr-[4rem]'>
         <button className='mx-3 flex justify-center items-center hover:text-blue-500'>

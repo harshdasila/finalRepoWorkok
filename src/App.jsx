@@ -14,7 +14,6 @@ import Copywrite from './components/Copywrite'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from './components/About'
 
-
 function App() {
   const tawkMessengerRef = useRef();
 
@@ -45,12 +44,9 @@ function App() {
       </>
     }
     >
-
     </Route>
-      
-      
-        <Route path="/about" element={<About/>}>
-      
+
+      <Route path="/about" element={<About/>}>
         </Route>
       </Routes>
     </BrowserRouter>
